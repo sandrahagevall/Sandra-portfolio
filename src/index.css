@@ -1,4 +1,50 @@
 body {
-  background: pink;
+  background: white;
   color: hotpink;
+}
+
+.hero-images {
+  position: relative;
+  width: 290px;
+  height: 200px;
+  margin: 2rem auto;
+}
+
+/* Grundstil för alla tre kort */
+.hero-img {
+  position: absolute;
+  width: 140px;
+  height: 160px;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Vänsterkort */
+.hero-img-left {
+  background-image: url('/images/logistik.jpg');
+  left: 0px;
+  top: 20px;
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+
+/* Mittenkort – porträtt, överst */
+.hero-img-main {
+  background-image: url('/images/topimg.png');
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* Högerkort */
+.hero-img-right {
+  background-image: url('/images/frontend.jpg');
+  right: 0px;
+  top: 20px;
+  transform: rotate(5deg);
+  z-index: 1;
 }
