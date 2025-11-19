@@ -49,3 +49,22 @@ body {
   transform: rotate(5deg);
   z-index: 1;
 }
+
+.project-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 12px;
+  text-align: center;
+  padding: 2px 6px;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  border: 1px solid black;
+  width: 190px;
+}
