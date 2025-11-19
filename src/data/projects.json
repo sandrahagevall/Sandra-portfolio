@@ -9,6 +9,7 @@
         "CSS3",
         "JavaScript"
       ],
+      "position": "left",
       "netlify": "https://skinexpert.netlify.app/",
       "github": "https://github.com/sandrahagevall/project-skinexpert"
     },
@@ -22,6 +23,7 @@
         "JavaScript",
         "APIs"
       ],
+      "position": "right",
       "netlify": "https://recipelibrary-app.netlify.app/",
       "github": "https://github.com/sandrahagevall/js-project-recipe-library"
     },
@@ -36,6 +38,7 @@
         "TypeScript",
         "APIs"
       ],
+      "position": "left",
       "netlify": "https://swe-weather-app.netlify.app/",
       "github": "https://github.com/sandrahagevall/js-project-weather-app"
     },
@@ -48,6 +51,7 @@
         "CSS3",
         "JavaScript"
       ],
+      "position": "right",
       "netlify": "https://eventacc.netlify.app/",
       "github": "https://github.com/sandrahagevall/js-project-accessibility"
     }

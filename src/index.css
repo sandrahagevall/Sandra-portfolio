@@ -55,7 +55,6 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   gap: 4px;
-  flex-wrap: wrap;
 }
 
 .tag {
