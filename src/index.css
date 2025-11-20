@@ -4,6 +4,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/*--- HERO ---*/
 .hero-images {
   position: relative;
   width: 290px;
@@ -23,7 +24,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Vänsterkort */
 .hero-img-left {
   background-image: url('/images/logistik.jpg');
   left: 0px;
@@ -32,7 +32,6 @@ body {
   z-index: 1;
 }
 
-/* Mittenkort – porträtt, överst */
 .hero-img-main {
   background-image: url('/images/topimg.png');
   left: 50%;
@@ -41,7 +40,6 @@ body {
   z-index: 2;
 }
 
-/* Högerkort */
 .hero-img-right {
   background-image: url('/images/frontend.jpg');
   right: 0px;
@@ -50,6 +48,7 @@ body {
   z-index: 1;
 }
 
+/*--- BUTTONS---*/
 a {
   text-decoration: none;
   color: inherit;
@@ -83,6 +82,7 @@ a {
   object-fit: contain;
 }
 
+/*--- FEATURED PROJECTS ---*/
 .project-card {
   display: flex;
   flex-direction: column;
@@ -119,6 +119,12 @@ a {
   border-radius: 4px;
   border: 1px solid black;
   width: 190px;
+}
+
+.blog-post-image {
+  width: 400px;
+  height: 250px;
+  border-radius: 12px;
 }
 
 @media (min-width: 768px) {

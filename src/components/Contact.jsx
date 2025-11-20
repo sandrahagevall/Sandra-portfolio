@@ -1,7 +1,9 @@
+import { Heading } from './Heading.jsx'
+
 export const Contact = () => {
   return (
     <section>
-      <h2>Let's Talk</h2>
+      <Heading>Let's Talk</Heading>
       <div className="contact-info">
         <p>Sandra Hagevall</p>
         <p>+46(0)703 15 53 85</p>

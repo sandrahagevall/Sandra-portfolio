@@ -1,10 +1,11 @@
 import { ProjectCard } from "./ProjectCard"
 import projectsData from "../data/projects.json"
+import { Heading } from "./Heading.jsx"
 
 export const FeaturedProjects = () => {
   return (
     <section>
-      <h2>Featured Projects</h2>
+      <Heading>Featured Projects</Heading>
 
       {projectsData.projects.map((project) => (
         <ProjectCard

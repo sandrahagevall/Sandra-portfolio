@@ -1,10 +1,11 @@
 import postsData from '../data/posts.json'
 import { BlogPostCard } from './BlogPostCard'
+import { Heading } from './Heading.jsx'
 
 export const MyWords = () => {
   return (
     <section>
-      <h2>My Words</h2>
+      <Heading>My Words</Heading>
       {postsData.posts.map((post) => (
         <BlogPostCard
           key={post.name}
