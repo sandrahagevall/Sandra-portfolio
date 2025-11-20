@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "name": "Career change: My journey into tech",
+      "date": "Nov 12th",
+      "description": "After studying at university for four and a half years, I had no plans to return to school. I was done with that chapter of my life.",
+      "image": "./public/images/careerchange.jpg",
+      "link": ""
+    },
+    {
+      "name": "Search for LIA",
+      "date": "Nov 15th",
+      "description": "Looking for LIA (Lärande i arbete) placement as part of my education at Technigo.",
+      "image": "./public/images/kugghjul.png",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7395424129769893888/"
+    }
+  ]
+}

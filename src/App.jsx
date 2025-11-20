@@ -10,24 +10,18 @@ export const App = () => {
   return (
     <>
       <main>
-        {/* HERO */}
         <Hero />
 
-        {/* TECH */}
         <Tech />
 
-        {/* FEATURED PROJECTS */}
         <FeaturedProjects />
 
-        {/* SKILLS */}
         <Skills />
 
-        {/* MY WORDS */}
         <MyWords />
       </main>
 
       <footer>
-        {/* CONTACT */}
         <Contact />
       </footer>
     </>

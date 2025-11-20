@@ -20,12 +20,12 @@ export const ProjectCard = ({ title, description, tags, image, liveUrl, codeUrl,
 
           <p>{description}</p>
 
-          <div>
+          <div className="project-card-buttons">
             <a href={liveUrl} target="_blank" rel="noopener noreferrer">
-              <Button>Live demo</Button>
+              <Button icon="/public/link.svg">Live demo</Button>
             </a>
             <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-              <Button>View code</Button>
+              <Button icon="/public/github.svg">View code</Button>
             </a>
           </div>
         </div>
