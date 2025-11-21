@@ -1,6 +1,7 @@
 import { ProjectCard } from "./ProjectCard"
 import projectsData from "../data/projects.json"
 import { Heading } from "./Heading.jsx"
+import { Button } from "./Button.jsx"
 
 export const FeaturedProjects = () => {
   return (
@@ -20,7 +21,7 @@ export const FeaturedProjects = () => {
         />
       ))}
       <div className="more-projects">
-        <button type="button" className="more-projects-btn">See more projects</button>
+        <Button variant="secondary" icon="/images/arrow.svg">See more projects</Button>
       </div>
     </section>
   )

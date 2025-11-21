@@ -69,11 +69,20 @@ a {
   padding: 8px 14px;
   border-radius: 12px;
   font-size: 14px;
-  background: black;
-  color: white;
-  border: none;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
+  border: none;
+}
+
+.btn-primary {
+  background: black;
+  color: white;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
 }
 
 .btn-icon {
@@ -96,11 +105,22 @@ a {
   padding: 10px 4px;
 }
 
+.project-card-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 1rem;
+  /* ger luft runt mobilmockups */
+}
+
 .project-image {
-  width: 280px;
-  height: 300px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
   border-radius: 12px;
-  object-fit: cover;
+  max-width: 900px;
 }
 
 .project-tags {
@@ -143,6 +163,31 @@ a {
 }
 
 @media (min-width: 768px) {
+
+  /*--- HERO ---*/
+  .hero-images {
+    width: 490px;
+    height: 260px;
+  }
+
+  /* Grundstil för alla tre kort */
+  .hero-img {
+    width: 230px;
+    height: 260px;
+  }
+
+  .hero-img-left {
+    top: 18px;
+  }
+
+  .hero-img-main {
+    top: 0px;
+  }
+
+  .hero-img-right {
+    top: 18px;
+  }
+
   .project-card {
     flex-direction: row;
     gap: 2rem;

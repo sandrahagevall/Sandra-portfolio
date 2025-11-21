@@ -1,6 +1,7 @@
 import postsData from '../data/posts.json'
 import { BlogPostCard } from './BlogPostCard'
 import { Heading } from './Heading.jsx'
+import { Button } from './Button.jsx'
 
 export const MyWords = () => {
   return (
@@ -16,6 +17,9 @@ export const MyWords = () => {
           link={post.link}
         />
       ))}
+      <div className="more-articles">
+        <Button variant="secondary" icon="/images/arrow.svg">See more articles</Button>
+      </div>
     </section>
   )
 }
