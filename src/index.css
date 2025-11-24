@@ -54,42 +54,6 @@ a {
   color: inherit;
 }
 
-.btn-wrapper {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin: 0.3rem 0;
-  max-width: 200px;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 16px;
-  padding: 8px 14px;
-  border-radius: 12px;
-  font-size: 14px;
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  border: none;
-}
-
-.btn-primary {
-  background: black;
-  color: white;
-}
-
-.btn-secondary {
-  background: transparent;
-  color: black;
-  border: 1px solid black;
-}
-
-.btn-icon {
-  width: 16px;
-  height: 16px;
-  object-fit: contain;
-}
 
 /*--- FEATURED PROJECTS ---*/
 .project-card {

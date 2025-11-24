@@ -1,10 +1,10 @@
+import { StyledButton, Icon } from './Button.styled'
+
 export const Button = ({ icon, children, variant = "primary" }) => {
   return (
-    <div className="btn-wrapper">
-      <button type="button" className={`btn btn-${variant}`}>
-        {icon && <img src={icon} alt="" className="btn-icon" />}
-        {children}
-      </button>
-    </div>
+    <StyledButton type="button" variant={variant}>
+      {icon && <Icon src={icon} alt="" />}
+      {children}
+    </StyledButton>
   )
 } 
