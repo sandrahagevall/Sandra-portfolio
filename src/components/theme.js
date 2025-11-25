@@ -11,7 +11,7 @@ export const theme = {
     xl: "4rem",    // 64px
   },
   breakpoints: {
-    tablet: '(max-width: 1024px)',
-    desktop: '(min-width: 1025px)',
+    tablet: '(min-width: 768px)',
+    desktop: '(min-width: 1024px)',
   }
 }

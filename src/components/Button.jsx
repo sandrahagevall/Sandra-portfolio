@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const StyledButton = styled.button`
+export const StyledButton = styled.button`
   display: flex;
   align-items: center;
   width: 303px;
@@ -13,14 +13,13 @@ const StyledButton = styled.button`
   cursor: pointer;
   border-radius: 12px;
 
-  background: ${({ theme, variant }) =>
-    variant === "secondary" ? "transparent" : theme.colors.black};
+  background: ${({ theme, $variant }) =>
+    $variant === "secondary" ? "transparent" : theme.colors.black};
 
-  color: ${({ theme, variant }) =>
-    variant === "secondary" ? theme.colors.black : theme.colors.white};
-
-  border: ${({ theme, variant }) =>
-    variant === "secondary" ? `1px solid ${theme.colors.black}` : "none"};
+  color: ${({ theme, $variant }) =>
+    $variant === "secondary" ? theme.colors.black : theme.colors.white};
+  border: ${({ theme, $variant }) =>
+    $variant === "secondary" ? `1px solid ${theme.colors.black}` : "none"};
 
   transition: 0.2s ease-in-out;
 
@@ -37,7 +36,7 @@ const Icon = styled.img`
 
 export const Button = ({ icon, children, variant = "primary" }) => {
   return (
-    <StyledButton type="button" variant={variant}>
+    <StyledButton type="button" $variant={variant}>
       {icon && <Icon src={icon} alt="" />}
       {children}
     </StyledButton>
