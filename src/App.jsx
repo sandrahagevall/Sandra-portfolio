@@ -4,26 +4,30 @@ import { FeaturedProjects } from "./components/FeaturedProjects.jsx"
 import { Skills } from "./components/Skills.jsx"
 import { MyWords } from "./components/MyWords.jsx"
 import { Contact } from "./components/Contact.jsx"
+import { GlobalStyle } from "./components/GlobalStyle.jsx"
+import { theme } from "./components/theme.js"
+import { ThemeProvider } from "styled-components"
 
 
 export const App = () => {
   return (
     <>
-      <main>
-        <Hero />
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <main>
+          <Hero />
 
-        <Tech />
+          <Tech />
 
-        <FeaturedProjects />
+          <FeaturedProjects />
 
-        <Skills />
+          <Skills />
 
-        <MyWords />
-      </main>
+          <MyWords />
 
-      <footer>
-        <Contact />
-      </footer>
+          <Contact />
+        </main>
+      </ThemeProvider>
     </>
   )
 }
