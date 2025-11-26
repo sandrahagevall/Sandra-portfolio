@@ -1,35 +1,33 @@
 import { Button } from "./Button.jsx"
+import { Card, ImageWrapper, Content, Tags, Buttons } from "./ProjectCard.styled.js"
 
 export const ProjectCard = ({ title, description, tags, image, liveUrl, codeUrl, position }) => {
   return (
-    <article className={`project-card project-card-${position}`}>
+    <Card $position={position}>
 
-      <div className="project-card-inner">
+      <ImageWrapper>
+        <img src={image} alt={title} />
+      </ImageWrapper>
 
-        <div className="project-card-image-container">
-          <img src={image} alt={title} className="project-image" />
-        </div>
+      <Content>
+        <Tags>
+          {tags && tags.map((tag) => (
+            <span key={tag} className="tag">{tag}</span>
+          ))}
+        </Tags>
 
-        <div className="project-card-content">
-          <div className="project-tags">
-            {tags && tags.map((tag) => (
-              <span key={tag} className="tag">{tag}</span>
-            ))}
-          </div>
-          <h3>{title}</h3>
+        <h3>{title}</h3>
+        <p>{description}</p>
 
-          <p>{description}</p>
-
-          <div className="project-card-buttons">
-            <a href={liveUrl} target="_blank" rel="noopener noreferrer">
-              <Button icon="/public/link.svg">Live demo</Button>
-            </a>
-            <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-              <Button icon="/public/github.svg">View code</Button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </article>
+        <Buttons>
+          <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+            <Button icon="/public/link.svg">Live demo</Button>
+          </a>
+          <a href={codeUrl} target="_blank" rel="noopener noreferrer">
+            <Button icon="/public/github.svg">View code</Button>
+          </a>
+        </Buttons>
+      </Content >
+    </Card>
   )
 }
