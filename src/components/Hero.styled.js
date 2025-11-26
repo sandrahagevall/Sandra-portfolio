@@ -49,7 +49,13 @@ order: 3;
 export const HeroBody = styled.p`
 font-size: 1rem;
 max-width: 800px;
+text-align: start;
 order: 5;
+margin: 0;
+
+@media ${({ theme }) => theme.breakpoints.tablet} {
+  text-align: center;
+}
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
   font-size: 1.2rem;
