@@ -14,12 +14,12 @@ export const StyledButton = styled.button`
   border-radius: 12px;
 
   background: ${({ theme, $variant }) =>
-    $variant === "secondary" ? "transparent" : theme.colors.black};
+    $variant === "secondary" ? "transparent" : theme.colors.primary};
 
   color: ${({ theme, $variant }) =>
-    $variant === "secondary" ? theme.colors.black : theme.colors.white};
+    $variant === "secondary" ? theme.colors.primary : theme.colors.secondary};
   border: ${({ theme, $variant }) =>
-    $variant === "secondary" ? `1px solid ${theme.colors.black}` : "none"};
+    $variant === "secondary" ? `1px solid ${theme.colors.primary}` : "none"};
 
   transition: 0.2s ease-in-out;
 

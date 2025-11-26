@@ -1,13 +1,13 @@
 import { SectionContainer } from "./SectionContainer"
-import { HeroWrapper, HeroImages, HeroImage } from "./Hero.styled.js"
+import { HeroWrapper, HeroImages, HeroImage, HeroIntro, HeroSubheading, HeroTitle, HeroBody } from "./Hero.styled.js"
 
 export const Hero = () => {
   return (
     <section>
       <SectionContainer>
         <HeroWrapper>
-          <p>Hi there, I'm</p>
-          <h1>Sandra Hagevall</h1>
+          <HeroIntro>Hi there, I'm</HeroIntro>
+          <HeroTitle>Sandra Hagevall</HeroTitle>
 
           <HeroImages>
             <HeroImage className="hero-img hero-img-left" aria-hidden="true" />
@@ -15,10 +15,10 @@ export const Hero = () => {
             <HeroImage className="hero-img hero-img-right" aria-hidden="true" />
           </HeroImages>
 
-          <p><strong>Analytical Frontend Developer with a Background in Industrial Engineering and IT Strategy</strong></p>
-          <p>
+          <HeroSubheading>Analytical Frontend Developer with a Background in Industrial Engineering and IT Strategy</HeroSubheading>
+          <HeroBody>
             I am a Frontend Developer skilled at creating logical, structured, and accessible applications. I excel at solving complex problems and delivering efficient solutions. My analytical skills and drive to produce precise, high-quality code make me a valuable asset in any project.
-          </p>
+          </HeroBody>
         </HeroWrapper>
       </SectionContainer>
     </section>

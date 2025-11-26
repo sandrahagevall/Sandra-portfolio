@@ -1,7 +1,7 @@
 export const theme = {
   colors: {
-    black: "#000000",
-    white: "#FFFFFF",
+    primary: "#000000",
+    secondary: "#FFFFFF",
   },
   spacing: {
     xs: "0.25rem",  // 4px

@@ -1,6 +1,7 @@
 import { Heading } from './Heading.jsx'
 import { ContactInfo } from './ContactInfo.jsx'
 import { SectionContainer } from './SectionContainer.jsx'
+import { IconButton } from './IconButton.jsx'
 
 export const Contact = () => {
   return (
@@ -13,9 +14,9 @@ export const Contact = () => {
           email="sandrahagevall@hotmail.com"
           imageSrc="/images/contactimg.png"
         />
-        <div className="social-links">
-
-        </div>
+        <IconButton icon="/images/linkedin.svg" url="https://www.linkedin.com/in/sandra-hagevall-8001b5183/" label="LinkedIn" />
+        <IconButton icon="/images/gitcontact.svg" url="https://github.com/sandrahagevall" label="GitHub" />
+        <IconButton icon="/images/instagram.svg" url="https://www.instagram.com/sandrahagevall/" label="Instagram" />
       </SectionContainer>
     </section>
   )
