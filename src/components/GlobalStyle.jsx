@@ -11,6 +11,15 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
   }
 
+  /* Prevent horizontal overflow during responsive debugging */
+  /* html, body {
+    overflow-x: hidden;
+  }
+
+  main {
+    width: 100%;
+  } */
+
   a {
     text-decoration: none;
     color: inherit;

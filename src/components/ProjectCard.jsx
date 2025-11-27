@@ -2,14 +2,15 @@ import { Button } from "./Button.jsx"
 import { Card, ImageWrapper, Content, Tags, Buttons } from "./ProjectCard.styled.js"
 
 export const ProjectCard = ({ title, description, tags, image, liveUrl, codeUrl, position }) => {
+
   return (
     <Card $position={position}>
 
-      <ImageWrapper>
+      <ImageWrapper $position={position}>
         <img src={image} alt={title} />
       </ImageWrapper>
 
-      <Content>
+      <Content $position={position}>
         <Tags>
           {tags && tags.map((tag) => (
             <span key={tag} className="tag">{tag}</span>

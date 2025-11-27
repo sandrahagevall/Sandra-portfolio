@@ -7,10 +7,11 @@ export const HeroWrapper = styled.div`
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  width: 100%;
 `
 
 export const HeroTitle = styled.h1`
-font-size: 3.25;
+font-size: 3.25rem;
 font-weight: 700;
 order: 2;
 margin: 0;
@@ -49,7 +50,7 @@ order: 3;
 export const HeroBody = styled.p`
 font-size: 1rem;
 max-width: 800px;
-text-align: start;
+text-align: center;
 order: 5;
 margin: 0;
 

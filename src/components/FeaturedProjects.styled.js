@@ -9,4 +9,7 @@ export const FeaturedInner = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 `
