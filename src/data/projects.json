@@ -3,7 +3,7 @@
     {
       "name": "Business site",
       "description": "This is a project for a fictional company, built with responsive design using Flexbox and Grid, featuring a mobile menu and contact form. It was designed to practice clean structure, interactivity, and enhance the user experience.",
-      "image": "images/business.png",
+      "image": "images/business2.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -16,7 +16,7 @@
     {
       "name": "Recipe library",
       "description": "This is a web app built using the Spoonacular API, designed to practice fetching specific data and using local storage to enhance the user experience, with JavaScript animations for added interactivity.",
-      "image": "images/recipe.png",
+      "image": "images/recipe2.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -30,7 +30,7 @@
     {
       "name": "Weather app",
       "description": "This weather app is a group project built using the SMHI API and TypeScript. It displays accurate weather data for different locations, includes dynamic icons, and was designed to practice API integration, asynchronous data handling, and collaborative development.",
-      "image": "images/weatherapp.png",
+      "image": "images/watherapp2.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -45,7 +45,7 @@
     {
       "name": "Accessibility site",
       "description": "This fictional event site is a group project, created with accessbility in focus. It includes a modal with trapped focus, a high-contrast mode toggle, and text customization settings. The project was designed to practice building accessible and user-friendly interfaces while implementing interactive features that enhance usability for all users.",
-      "image": "images/eventfinder.png",
+      "image": "images/eventfinder2.png",
       "tags": [
         "HTML5",
         "CSS3",

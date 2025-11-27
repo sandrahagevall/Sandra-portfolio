@@ -3,45 +3,51 @@ import styled from "styled-components"
 
 export const Card = styled.article`
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;  /* 📱 MOBIL & TABLET */
-  gap: 2rem;
+  gap: 4rem;
   align-items: center;
 
   /* 🖥 DESKTOP */
   @media ${({ theme }) => theme.breakpoints.desktop} {
     flex-direction: ${({ $position }) =>
     $position === "left" ? "row" : "row-reverse"};
-    gap: 4rem;
+    gap: 6rem;
     align-items: flex-start;
+    margin-bottom: 6rem;
   }
-`;
+`
 
 export const ImageWrapper = styled.div`
   display: flex; 
   justify-content: center;
-  flex: 1;
 
   img {
     width: 100%;
     height: auto;
-    max-width: 360px;
+    max-width: 480px;
     display: block;
+  }
+
+    @media ${({ theme }) => theme.breakpoints.tablet} {
+    img {
+     max-width: 650px;
+    }
   }
 
   @media ${({ theme }) => theme.breakpoints.desktop} {
     img {
-     max-width: 1400px;
+    
+    max-width: 1800px; 
     }
   }
-`;
+`
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 1;
   text-align: left;
   max-width: 100%;
 
@@ -101,7 +107,7 @@ export const Tags = styled.div`
 export const Buttons = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: 0.4rem;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 1rem;

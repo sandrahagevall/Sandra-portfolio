@@ -3,25 +3,33 @@ import styled from "styled-components"
 export const ContactInfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;   /* ← vänster på mobil */
-  text-align: left;
+  align-items: center;
+  gap: 1rem;
+  `
 
-  @media ${({ theme }) => theme.breakpoints.tablet} {
-    align-items: center;     /* ← centrerat på tablet & desktop */
-    text-align: center;
-  }
+export const ContactImage = styled.img`
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
 
-  img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-  }
+@media ${({ theme }) => theme.breakpoints.desktop} {
+  width: 150px;
+  height: 150px;
+}
+`
+
+export const TextContainer = styled.div`
+width: 100%;
+text-align: left;
 
   p {
-    margin: 0.25rem 0;
-  }
+  margin: 0.25rem 0;
+}
+
+@media ${({ theme }) => theme.breakpoints.tablet} {
+  text-align: center;
+}
 `
 
 
@@ -29,16 +37,17 @@ export const ContactInfo = ({ name, phone, email, imageSrc }) => {
   return (
     <ContactInfoWrapper>
 
-      <img src={imageSrc} alt={`Contact ${name}`} />
+      <ContactImage src={imageSrc} alt={`Contact ${name}`} />
 
-      <p>{name}</p>
-
-      <p>
-        <a href={`tel:${phone}`} className="contact-link">{phone}</a>
-      </p>
-      <p>
-        <a href={`mailto:${email}`} className="contact-link">{email}</a>
-      </p>
+      <TextContainer>
+        <p>{name}</p>
+        <p>
+          <a href={`tel:${phone}`} className="contact-link">{phone}</a>
+        </p>
+        <p>
+          <a href={`mailto:${email}`} className="contact-link">{email}</a>
+        </p>
+      </TextContainer>
     </ContactInfoWrapper>
   )
 }
