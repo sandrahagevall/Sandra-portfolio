@@ -1,18 +1,44 @@
+import styled from "styled-components"
+
+export const ContactInfoWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   /* ← vänster på mobil */
+  text-align: left;
+
+  @media ${({ theme }) => theme.breakpoints.tablet} {
+    align-items: center;     /* ← centrerat på tablet & desktop */
+    text-align: center;
+  }
+
+  img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin: 0.25rem 0;
+  }
+`
+
+
 export const ContactInfo = ({ name, phone, email, imageSrc }) => {
   return (
-    <div className="contact-info">
-      <div className="contact-image">
-        <img src={imageSrc} alt={`Contact ${name}`} />
-      </div>
+    <ContactInfoWrapper>
 
-      <p><strong>{name}</strong></p>
+      <img src={imageSrc} alt={`Contact ${name}`} />
 
-      <p><strong>
+      <p>{name}</p>
+
+      <p>
         <a href={`tel:${phone}`} className="contact-link">{phone}</a>
-      </strong></p>
-      <p><strong>
+      </p>
+      <p>
         <a href={`mailto:${email}`} className="contact-link">{email}</a>
-      </strong></p>
-    </div>
+      </p>
+    </ContactInfoWrapper>
   )
 }

@@ -1,24 +1,38 @@
-import { Button } from "./Button.jsx";
+import { motion } from "framer-motion"
+import { useInView } from "framer-motion"
+import { useRef } from "react"
+import { Button } from "./Button.jsx"
+import { Card, ImageContainer, Content } from "./BlogPostCard.styled.js"
 
 export const BlogPostCard = ({ title, date, image, description, link }) => {
-  return (
-    <article className="blog-post-card">
+  const ref = useRef(null)
+  const inView = useInView(ref, { once: true })
 
-      <div className="blog-post-card-image-container">
-        <img src={image} alt={title} className="blog-post-image" />
-      </div>
-      <div className="blog-post-card-content">
-        <p className="date">{date}</p>
-        <p><strong>{title}</strong></p>
-        <p>{description}</p>
-        {link ? (
-          <a href={link} target="_blank" rel="noopener noreferrer">
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 40 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
+      <Card>
+        <ImageContainer>
+          <img src={image} alt={title} className="blog-post-image" />
+        </ImageContainer>
+
+        <Content>
+          <p className="date">{date}</p>
+          <h3>{title}</h3>
+          <p>{description}</p>
+          {link ? (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <Button icon="/public/link.svg">Read article</Button>
+            </a>
+          ) : (
             <Button icon="/public/link.svg">Read article</Button>
-          </a>
-        ) : (
-          <Button icon="/public/link.svg">Read article</Button>
-        )}
-      </div>
-    </article>
+          )}
+        </Content>
+      </Card>
+    </motion.div>
   )
 }

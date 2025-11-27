@@ -16,10 +16,10 @@ const StyledIconButton = styled.a`
   }
 
   img {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
-    filter: brightness(0) invert(1); /* gör ikon vit */
+    filter: brightness(0) invert(1);
   }
 `
 

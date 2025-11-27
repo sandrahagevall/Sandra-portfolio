@@ -105,14 +105,14 @@
   width: 190px;
 } */
 
-.blog-post-image {
+/* .blog-post-image {
   width: 400px;
   height: 250px;
   border-radius: 12px;
-}
+} */
 
 /*--- CONTACT ---*/
-.contact-image img {
+/* .contact-image img {
   width: 120px;
   height: 120px;
   object-fit: cover;
@@ -124,18 +124,18 @@
 .contact-info {
   text-align: center;
   margin-top: 1rem;
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
 
-  /*--- HERO ---*/
-  /* .hero-images {
+/*--- HERO ---*/
+/* .hero-images {
     width: 490px;
     height: 260px;
   } */
 
-  /* Grundstil för alla tre kort */
-  /* .hero-img {
+/* Grundstil för alla tre kort */
+/* .hero-img {
     width: 230px;
     height: 260px;
   }
@@ -152,7 +152,7 @@
     top: 18px;
   } */
 
-  .project-card {
+/* .project-card {
     flex-direction: row;
     gap: 2rem;
     align-items: center;
@@ -170,5 +170,5 @@
 
   .project-card-right .project-card-inner {
     flex-direction: row-reverse;
-  }
-}
+  } */
+/* } */
