@@ -1,8 +1,8 @@
-import { ProjectCard } from "./ProjectCard"
-import projectsData from "../data/projects.json"
-import { Heading } from "./Heading.jsx"
-import { Button } from "./Button.jsx"
-import { SectionContainer } from "./SectionContainer.jsx"
+import { ProjectCard } from "./ProjectCard.jsx"
+import projectsData from "../../data/projects.json"
+import { Heading } from "../Heading"
+import { Button } from "../Button"
+import { SectionContainer } from "../SectionContainer"
 import { FeaturedWrapper, FeaturedInner } from "./FeaturedProjects.styled.js"
 
 export const FeaturedProjects = () => {

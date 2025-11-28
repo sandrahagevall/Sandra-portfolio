@@ -1,7 +1,7 @@
 import { SkillsGroup } from './SkillsGroup.jsx'
-import skillsData from '../data/skills.json'
-import { Heading } from './Heading.jsx'
-import { SectionContainer } from './SectionContainer.jsx'
+import skillsData from '../../data/skills.json'
+import { Heading } from '../Heading'
+import { SectionContainer } from '../SectionContainer'
 import styled from 'styled-components'
 
 export const SkillsWrapper = styled.section`

@@ -1,4 +1,4 @@
-import { SectionContainer } from "./SectionContainer"
+import { SectionContainer } from "../SectionContainer"
 import { HeroWrapper, HeroImages, HeroImage, HeroIntro, HeroSubheading, HeroTitle, HeroBody } from "./Hero.styled.js"
 
 export const Hero = () => {

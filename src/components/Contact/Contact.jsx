@@ -1,7 +1,7 @@
-import { Heading } from './Heading.jsx'
+import { Heading } from '../Heading'
 import { ContactInfo } from './ContactInfo.jsx'
-import { SectionContainer } from './SectionContainer.jsx'
-import { IconButton } from './IconButton.jsx'
+import { SectionContainer } from '../SectionContainer'
+import { IconButton } from '../IconButton'
 import styled from 'styled-components'
 
 export const ContactWrapper = styled.section`
@@ -14,7 +14,7 @@ export const SocialWrapper = styled.div`
   margin-top: 2rem;
 
   justify-content: center;  /* ← centrera ikonerna */
-`;
+`
 
 export const Contact = () => {
   return (

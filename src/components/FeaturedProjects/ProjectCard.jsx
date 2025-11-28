@@ -1,8 +1,8 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { Button } from "./Button.jsx"
-import { Card, ImageWrapper, Content, Tags, Buttons } from "./ProjectCard.styled.js"
+import { Button } from "../Button"
+import { Card, ImageWrapper, Content, Tags, Buttons } from "./ProjectCard.styled"
 
 export const ProjectCard = ({ title, description, tags, image, liveUrl, codeUrl, position }) => {
   const ref = useRef(null)

@@ -1,5 +1,5 @@
-import { Heading } from "./Heading"
-import { SectionContainer } from "./SectionContainer.jsx"
+import { Heading } from "../Heading"
+import { SectionContainer } from "../SectionContainer"
 import styled from "styled-components"
 
 

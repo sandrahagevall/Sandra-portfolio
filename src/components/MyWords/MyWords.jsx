@@ -1,8 +1,8 @@
-import postsData from '../data/posts.json'
+import postsData from '../../data/posts.json'
 import { BlogPostCard } from './BlogPostCard'
-import { Heading } from './Heading.jsx'
-import { Button } from './Button.jsx'
-import { SectionContainer } from './SectionContainer.jsx'
+import { Heading } from '../Heading'
+import { Button } from '../Button'
+import { SectionContainer } from '../SectionContainer'
 import styled from 'styled-components'
 
 export const ContentWrapper = styled.div`
@@ -18,7 +18,6 @@ margin-top: 5rem;
 
   @media ${({ theme }) => theme.breakpoints.desktop} {
     max-width: 1000px;
-    gap: 3rem;
   }
 `
 

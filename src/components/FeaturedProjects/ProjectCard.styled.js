@@ -6,11 +6,10 @@ export const Card = styled.article`
   max-width: 1600px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;  /* 📱 MOBIL & TABLET */
+  flex-direction: column;  
   gap: 4rem;
   align-items: center;
 
-  /* 🖥 DESKTOP */
   @media ${({ theme }) => theme.breakpoints.desktop} {
     flex-direction: ${({ $position }) =>
     $position === "left" ? "row" : "row-reverse"};
@@ -23,6 +22,7 @@ export const Card = styled.article`
 export const ImageWrapper = styled.div`
   display: flex; 
   justify-content: center;
+  flex: 1.5;
 
   img {
     width: 100%;
@@ -39,8 +39,7 @@ export const ImageWrapper = styled.div`
 
   @media ${({ theme }) => theme.breakpoints.desktop} {
     img {
-    
-    max-width: 1800px; 
+    max-width: 750px; 
     }
   }
 `
@@ -50,6 +49,7 @@ export const Content = styled.div`
   flex-direction: column;
   text-align: left;
   max-width: 100%;
+  flex: 1;
 
   h3 {
     font-size: 1.5rem;
@@ -115,4 +115,4 @@ export const Buttons = styled.div`
   @media ${({ theme }) => theme.breakpoints.desktop} {
     justify-content: flex-start;
   }
-`;
+`

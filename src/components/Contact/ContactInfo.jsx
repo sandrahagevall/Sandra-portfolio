@@ -20,12 +20,24 @@ export const ContactImage = styled.img`
 `
 
 export const TextContainer = styled.div`
-width: 100%;
-text-align: left;
+  width: 100%;
+  text-align: left;
 
   p {
   margin: 0.25rem 0;
+  padding: 0 12px;
 }
+
+.contact-link {
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.secondary};
+  transition: 0.2s ease;
+  }
+
+  .contact-link:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+  }
 
 @media ${({ theme }) => theme.breakpoints.tablet} {
   text-align: center;

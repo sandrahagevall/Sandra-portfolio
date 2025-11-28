@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { Button } from "./Button.jsx"
+import { Button } from "../Button"
 import { Card, ImageContainer, Content } from "./BlogPostCard.styled.js"
 
 export const BlogPostCard = ({ title, date, image, description, link }) => {

@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const SkillGroupWrapper = styled.div`
   text-align: left;
+  padding: 0 8px;
 
   h3 {
     font-size: 14px;
@@ -11,6 +12,8 @@ export const SkillGroupWrapper = styled.div`
     margin-bottom: 12px;
     border-radius: 4px;
     font-weight: 500;
+    min-width: 150px;
+    text-align: center;
   }
 
   ul {
