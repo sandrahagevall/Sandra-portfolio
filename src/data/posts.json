@@ -4,21 +4,21 @@
       "name": "Career change: My journey into tech",
       "date": "Nov 12th",
       "description": "After studying at university for four and a half years, I had no plans to return to school. I was done with that chapter of my life.",
-      "image": "./public/images/careerchange.jpg",
+      "image": "./images/careerchange.jpg",
       "link": ""
     },
     {
       "name": "Placeholder post",
       "date": "Nov 15th",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quos deleniti quidem ea quod laborum commodi cupiditate ex odio soluta sit sequi cumque nobis tempora veniam recusandae necessitatibus, enim at!",
-      "image": "./public/images/kugghjul.png",
+      "image": "./images/kugghjul.png",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7395424129769893888/"
     },
     {
       "name": "Placeholder post",
       "date": "Nov 15th",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quos deleniti quidem ea quod laborum commodi cupiditate ex odio soluta sit sequi cumque nobis tempora veniam recusandae necessitatibus, enim at!",
-      "image": "./public/images/placeholder.png",
+      "image": "./images/placeholder.png",
       "link": "https://www.linkedin.com/feed/update/urn:li:activity:7395424129769893888/"
     }
   ]
