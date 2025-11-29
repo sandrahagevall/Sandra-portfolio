@@ -12,10 +12,11 @@ export const ContactImage = styled.img`
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-
-@media ${({ theme }) => theme.breakpoints.desktop} {
-  width: 150px;
-  height: 150px;
+  
+  
+  @media ${({ theme }) => theme.breakpoints.desktop} {
+    width: 150px;
+    height: 150px;
 }
 `
 
@@ -24,8 +25,8 @@ export const TextContainer = styled.div`
   text-align: left;
 
   p {
-  margin: 0.25rem 0;
-  padding: 0 12px;
+    margin: 0.25rem 0;
+    padding: 0 12px;
 }
 
 .contact-link {
@@ -38,9 +39,9 @@ export const TextContainer = styled.div`
     text-decoration: underline;
     opacity: 0.7;
   }
-
-@media ${({ theme }) => theme.breakpoints.tablet} {
-  text-align: center;
+  
+  @media ${({ theme }) => theme.breakpoints.tablet} {
+    text-align: center;
 }
 `
 

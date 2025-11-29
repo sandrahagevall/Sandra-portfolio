@@ -25,9 +25,7 @@ export const BlogPostCard = ({ title, date, image, description, link }) => {
           <h3>{title}</h3>
           <p>{description}</p>
           {link ? (
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <Button icon="/link.svg">Read article</Button>
-            </a>
+            <Button as="a" href={link} target="_blank" rel="noopener noreferrer" icon="/link.svg">Read article</Button>
           ) : (
             <Button icon="/link.svg">Read article</Button>
           )}

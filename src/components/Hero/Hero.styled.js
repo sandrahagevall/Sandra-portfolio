@@ -11,10 +11,10 @@ export const HeroWrapper = styled.div`
 `
 
 export const HeroTitle = styled.h1`
-font-size: 3.25rem;
-font-weight: 700;
-order: 2;
-margin: 0;
+  font-size: 3.25rem;
+  font-weight: 700;
+  order: 2;
+  margin: 0;
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
   font-size: 5rem;
@@ -22,9 +22,9 @@ margin: 0;
 `
 
 export const HeroIntro = styled.p`
-font-size: 1.5rem;
-font-weight: 500;
-order: 1;
+  font-size: 1.5rem;
+  font-weight: 500;
+  order: 1;
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
   font-size: 1.8rem;
@@ -32,10 +32,10 @@ order: 1;
 `
 
 export const HeroSubheading = styled.p`
-font-size: 1.25rem;
-font-weight: 500;
-max-width: 800px;
-order: 3; 
+  font-size: 1.25rem;
+  font-weight: 500;
+  max-width: 800px;
+  order: 3; 
 
 @media ${({ theme }) => theme.breakpoints.tablet} {
   font-size: 1.5rem;
@@ -48,11 +48,11 @@ order: 3;
 `
 
 export const HeroBody = styled.p`
-font-size: 1rem;
-max-width: 800px;
-text-align: center;
-order: 5;
-margin: 0;
+  font-size: 1rem;
+  max-width: 800px;
+  text-align: center;
+  order: 5;
+  margin: 0;
 
 @media ${({ theme }) => theme.breakpoints.tablet} {
   text-align: center;

@@ -4,10 +4,10 @@ import styled from "styled-components"
 
 
 export const TechWrapper = styled.section`
-background-color: ${({ theme }) => theme.colors.primary};
-color: ${({ theme }) => theme.colors.secondary};
-padding: 0 0 5rem;
-width: 100%;
+  background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.secondary};
+  padding: 0 0 5rem;
+  width: 100%;
 `
 
 export const TechInner = styled.div`
@@ -18,18 +18,18 @@ export const TechInner = styled.div`
 `
 
 export const TechBody = styled.p`
-font-size: 1rem;
-max-width: 350px;
-text-align: center;
-margin: 0 auto;
+  font-size: 1rem;
+  max-width: 350px;
+  text-align: center;
+  margin: 0 auto;
 
 @media ${({ theme }) => theme.breakpoints.tablet} {
   max-width: 500px;
 }
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
-font-size: 1.2rem;
-max-width: 850px;
+  font-size: 1.2rem;
+  max-width: 850px;
 }
 `
 

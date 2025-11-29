@@ -22,8 +22,8 @@ export const ProjectCard = ({ title, description, tags, image, liveUrl, codeUrl,
 
         <Content $position={position}>
           <Tags>
-            {tags && tags.map((tag) => (
-              <span key={tag} className="tag">{tag}</span>
+            {tags && tags.map((tag, i) => (
+              <span key={`${tag}-${i}`} className="tag">{tag}</span>
             ))}
           </Tags>
 
@@ -31,12 +31,8 @@ export const ProjectCard = ({ title, description, tags, image, liveUrl, codeUrl,
           <p>{description}</p>
 
           <Buttons>
-            <a href={liveUrl} target="_blank" rel="noopener noreferrer">
-              <Button icon="/link.svg">Live demo</Button>
-            </a>
-            <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-              <Button icon="/github.svg">View code</Button>
-            </a>
+            <Button as="a" href={liveUrl} target="_blank" rel="noopener noreferrer" icon="/link.svg">Live demo</Button>
+            <Button as="a" href={codeUrl} target="_blank" rel="noopener noreferrer" icon="/github.svg">View code</Button>
           </Buttons>
         </Content >
       </Card>

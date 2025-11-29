@@ -13,7 +13,7 @@ export const Card = styled.article`
 
   @media ${({ theme }) => theme.breakpoints.desktop} {
     grid-template-columns: 50% 50%;
-    column-gap: 4rem;
+    column-gap: ${({ theme }) => theme.spacing.xl};
   }
 `
 
@@ -53,7 +53,7 @@ export const Content = styled.div`
   }
 
   .date {
-    font-size: 13px;
+    font-size: 0.9rem;
     border: 1px solid #000;
     padding: 2px 8px;
     border-radius: 4px;

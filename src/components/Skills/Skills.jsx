@@ -5,16 +5,16 @@ import { SectionContainer } from '../SectionContainer'
 import styled from 'styled-components'
 
 export const SkillsWrapper = styled.section`
-background-color: ${({ theme }) => theme.colors.primary};
-color: ${({ theme }) => theme.colors.secondary};
-padding: 0 0 5rem;
-width: 100%;
+  background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.secondary};
+  padding: 0 0 5rem;
+  width: 100%;
 `
 
 export const GroupsContainer = styled.div`
-display: grid;
-grid-template-columns: 1fr;
-text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
 
 @media ${({ theme }) => theme.breakpoints.tablet} {
   max-width: 600px;
