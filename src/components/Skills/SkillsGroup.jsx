@@ -5,7 +5,7 @@ export const SkillGroupWrapper = styled.div`
   padding: 0 8px;
 
   h3 {
-    font-size: 14px;
+    font-size: 1rem;
     border: 1px solid #fff;
     padding: 4px 18px;
     display: inline-block;

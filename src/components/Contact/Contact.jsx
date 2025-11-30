@@ -5,8 +5,8 @@ import { IconButton } from '../IconButton'
 import styled from 'styled-components'
 
 export const ContactWrapper = styled.section`
-background-color: ${({ theme }) => theme.colors.primary};
-color: ${({ theme }) => theme.colors.secondary};
+  background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.secondary};
 `
 export const SocialWrapper = styled.div`
   display: flex;

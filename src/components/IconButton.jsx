@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledIconButton = styled.a`
- width: 44px;
+  width: 44px;
   height: 44px;
   border-radius: 50%;
   display: flex;

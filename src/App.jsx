@@ -14,8 +14,9 @@ export const App = () => {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <main>
-          <Hero />
+        <a href="#main" className="skip-link">Skip to main content</a>
+        <Hero />
+        <main id="main" tabIndex={-1}>
 
           <Tech />
 

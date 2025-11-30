@@ -6,11 +6,11 @@ import { SectionContainer } from '../SectionContainer'
 import styled from 'styled-components'
 
 export const ContentWrapper = styled.div`
-display: flex;
-flex-direction: column;
-width: 100%;
-margin: 0 auto;
-margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
 
   @media ${({ theme }) => theme.breakpoints.tablet} {
     max-width: 650px;
@@ -22,9 +22,9 @@ margin-top: 5rem;
 `
 
 export const MoreArticles = styled.div`
-display: flex;
-justify-content: center;
-margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 `
 
 export const MyWords = () => {
