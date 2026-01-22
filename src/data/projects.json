@@ -54,6 +54,20 @@
       "position": "right",
       "netlify": "https://eventacc.netlify.app/",
       "github": "https://github.com/sandrahagevall/js-project-accessibility"
+    },
+    {
+      "name": "Happy thoughts app",
+      "description": "Happy Thoughts is a responsive web app where users can share and like positive messages. The app was built as a way to practice working with APIs, managing state, and creating a friendly, interactive user experience using React.",
+      "image": "images/.png",
+      "tags": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "APIs"
+      ],
+      "position": "left",
+      "netlify": "https://happyarea.netlify.app/",
+      "github": "https://github.com/sandrahagevall/Project-happy-thoughts"
     }
   ]
 }

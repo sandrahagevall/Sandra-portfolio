@@ -49,9 +49,11 @@ const Icon = styled.img`
   width: 2rem;
   height: 2rem;
   object-fit: contain;
+  transition: transform 0.3s ease;
+  transform: ${({ $rotated }) => ($rotated ? "rotate(180deg)" : "rotate(0deg)")};
 `
 
-export const Button = ({ icon, children, variant = "primary", as: asProp, href, target, rel, ariaLabel, ...rest }) => {
+export const Button = ({ icon, children, variant = "primary", as: asProp, $rotated = false, href, target, rel, ariaLabel, ...rest }) => {
   // Render as an anchor when 'as="a"' is passed or when 'href' exists.
   return (asProp === "a" || href) ? (
     <StyledButton
@@ -63,12 +65,12 @@ export const Button = ({ icon, children, variant = "primary", as: asProp, href, 
       aria-label={ariaLabel}
       {...rest}
     >
-      {icon && <Icon src={icon} alt="" />}
+      {icon && <Icon src={icon} alt="" $rotated={$rotated} />}
       {children}
     </StyledButton>
   ) : (
     <StyledButton type="button" $variant={variant} {...rest}>
-      {icon && <Icon src={icon} alt="" />}
+      {icon && <Icon src={icon} alt="" $rotated={$rotated} />}
       {children}
     </StyledButton>
   )

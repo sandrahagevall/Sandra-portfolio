@@ -10,8 +10,10 @@ export const ProjectCard = ({ title, description, tags, image, liveUrl, codeUrl,
   return (
     <motion.div
       ref={ref}
+      layout
       initial={{ opacity: 0, y: 40 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
+      exit={{ opacity: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <Card $position={position}>
