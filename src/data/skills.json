@@ -8,7 +8,8 @@
         "JavaScript",
         "TypeScript",
         "React",
-        "JSON"
+        "JSON",
+        "Node.js"
       ]
     },
     {
@@ -24,7 +25,6 @@
     {
       "group": "Upcoming",
       "items": [
-        "Node.js",
         "MongoDB"
       ]
     },
