@@ -15,9 +15,9 @@ export const Hero = () => {
             <HeroImage className="hero-img hero-img-right" aria-hidden="true" />
           </HeroImages>
 
-          <HeroSubheading>Analytical Frontend Developer with a Background in Industrial Engineering and IT Strategy</HeroSubheading>
+          <HeroSubheading>Analytical Fullstack Developer with a Background in Industrial Engineering and IT Strategy</HeroSubheading>
           <HeroBody>
-            I am a Frontend Developer skilled at creating logical, structured, and accessible applications. I excel at solving complex problems and delivering efficient solutions. My analytical skills and drive to produce precise, high-quality code make me a valuable asset in any project.
+            I am a Fullstack Developer skilled at creating logical, structured, and accessible applications. I excel at solving complex problems and delivering efficient solutions. My analytical skills and drive to produce precise, high-quality code make me a valuable asset in any project.
           </HeroBody>
         </HeroWrapper>
       </SectionContainer>
