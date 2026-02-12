@@ -57,17 +57,32 @@
     },
     {
       "name": "Happy thoughts app",
-      "description": "Happy Thoughts is a responsive web app where users can share and like positive messages. The app was built as a way to practice working with APIs, managing state, and creating a friendly, interactive user experience using React.",
-      "image": "images/.png",
+      "description": "Happy Thoughts is a full-stack web application where users can share and like positive messages. The frontend is built with React and Tailwind CSS, while the backend is developed using Node.js and Express with MongoDB for data storage. The project focuses on API design, state management, and creating a friendly, interactive user experience.",
+      "image": "images/happythoughts.png",
       "tags": [
         "React",
-        "Tailwind CSS",
         "JavaScript",
-        "APIs"
+        "Node.js",
+        "Express",
+        "MongoDB"
       ],
       "position": "left",
       "netlify": "https://happyarea.netlify.app/",
       "github": "https://github.com/sandrahagevall/Project-happy-thoughts"
+    },
+    {
+      "name": "Todo app",
+      "description": "A responsive Todo application built with React and JavaScript, featuring global state management using Zustand. Styled with Tailwind CSS, the app allows users to create, categorize, and manage tasks with optional due dates",
+      "image": "images/todo.png",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Zustand",
+        "Tailwind CSS"
+      ],
+      "position": "right",
+      "netlify": "https://task-by-task.netlify.app/",
+      "github": "https://github.com/sandrahagevall/project-todo"
     }
   ]
 }
