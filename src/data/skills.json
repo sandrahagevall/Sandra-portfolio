@@ -1,30 +1,31 @@
 {
   "skills": [
     {
-      "group": "Code",
+      "group": "Languages",
       "items": [
         "HTML5",
         "CSS3",
-        "JavaScript",
+        "JavaScript (ES6+)",
         "TypeScript",
-        "React",
-        "JSON",
-        "Node.js"
+        "JSON"
       ]
     },
     {
-      "group": "Toolbox",
+      "group": "Frontend",
       "items": [
-        "VS Code",
-        "Figma",
-        "Chrome DevTools",
-        "Netlify",
-        "Slack"
+        "React & Global State Management",
+        "API Integration",
+        "Responsive Web Design",
+        "Web Accessibility",
+        "Tailwind",
+        "Git"
       ]
     },
     {
-      "group": "Upcoming",
+      "group": "Backend",
       "items": [
+        "Node.js",
+        "Express.js",
         "MongoDB"
       ]
     },
@@ -33,8 +34,6 @@
       "items": [
         "Strategy",
         "Process design",
-        "Responsive design",
-        "Accessibility",
         "Agile methodology",
         "Project management"
       ]

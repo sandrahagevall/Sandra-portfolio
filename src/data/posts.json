@@ -2,24 +2,17 @@
   "posts": [
     {
       "name": "Career change: My journey into tech",
-      "date": "Nov 12th",
-      "description": "After studying at university for four and a half years, I had no plans to return to school. I was done with that chapter of my life.",
-      "image": "./images/careerchange.jpg",
-      "link": ""
-    },
-    {
-      "name": "Placeholder 1",
-      "date": "Nov 15th",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quos deleniti quidem ea quod laborum commodi cupiditate ex odio soluta sit sequi cumque nobis tempora veniam recusandae necessitatibus, enim at!",
-      "image": "./images/kugghjul.png",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7395424129769893888/"
-    },
-    {
-      "name": "Placeholder 2",
-      "date": "Nov 15th",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quos deleniti quidem ea quod laborum commodi cupiditate ex odio soluta sit sequi cumque nobis tempora veniam recusandae necessitatibus, enim at!",
-      "image": "./images/placeholder.png",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7395424129769893888/"
+      "date": "Mar 9th",
+      "image": "images/careerchange.jpg",
+      "content": [
+        "After studying at university for four and a half years, I had no plans to return to school. I was done with that chapter of my life. Since I had never quite found my niche regarding my working life, I chose a broad degree — a Bachelor of Science in Industrial Engineering and Management — hoping that somewhere along the way I would discover in what direction I wanted to go.",
+        "My father has worked as an IT consultant for many years, so I grew up watching him type green numbers on a black screen — something I always thought looked incredibly boring.",
+        "After graduating, my journey toward finding the right professional role began. I tried different jobs, but none of them felt quite right.",
+        "A few years after earning my degree, I started working as an IT strategist. The work felt meaningful, but I soon realized I wanted to understand more about the technical side of IT.",
+        "That’s when the JavaScript Development Bootcamp by Technigo appeared. It was a 32-week bootcamp, and it felt perfect.",
+        "A few weeks later, the results came in — I had been accepted.",
+        "So here we are, at the end of the bootcamp, and I haven’t regretted it for a single day."
+      ]
     }
   ]
 }

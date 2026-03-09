@@ -1,61 +1,6 @@
 {
   "projects": [
     {
-      "name": "Business site",
-      "description": "This is a project for a fictional company, built with responsive design using Flexbox and Grid, featuring a mobile menu and contact form. It was designed to practice clean structure, interactivity, and enhance the user experience.",
-      "image": "images/business2.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "position": "left",
-      "netlify": "https://skinexpert.netlify.app/",
-      "github": "https://github.com/sandrahagevall/project-skinexpert"
-    },
-    {
-      "name": "Recipe library",
-      "description": "This is a web app built using the Spoonacular API, designed to practice fetching specific data and using local storage to enhance the user experience, with JavaScript animations for added interactivity.",
-      "image": "images/recipe2.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "APIs"
-      ],
-      "position": "right",
-      "netlify": "https://recipelibrary-app.netlify.app/",
-      "github": "https://github.com/sandrahagevall/js-project-recipe-library"
-    },
-    {
-      "name": "Weather app",
-      "description": "This weather app is a group project built using the SMHI API and TypeScript. It displays accurate weather data for different locations, includes dynamic icons, and was designed to practice API integration, asynchronous data handling, and collaborative development.",
-      "image": "images/watherapp2.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "TypeScript",
-        "APIs"
-      ],
-      "position": "left",
-      "netlify": "https://swe-weather-app.netlify.app/",
-      "github": "https://github.com/sandrahagevall/js-project-weather-app"
-    },
-    {
-      "name": "Accessibility site",
-      "description": "This fictional event site is a group project, created with accessbility in focus. It includes a modal with trapped focus, a high-contrast mode toggle, and text customization settings. The project was designed to practice building accessible and user-friendly interfaces while implementing interactive features that enhance usability for all users.",
-      "image": "images/eventfinder2.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "position": "right",
-      "netlify": "https://eventacc.netlify.app/",
-      "github": "https://github.com/sandrahagevall/js-project-accessibility"
-    },
-    {
       "name": "Happy thoughts app",
       "description": "Happy Thoughts is a full-stack web application where users can share and like positive messages. The frontend is built with React and Tailwind CSS, while the backend is developed using Node.js and Express with MongoDB for data storage. The project focuses on API design, state management, and creating a friendly, interactive user experience.",
       "image": "images/happythoughts.png",
@@ -83,6 +28,61 @@
       "position": "right",
       "netlify": "https://task-by-task.netlify.app/",
       "github": "https://github.com/sandrahagevall/project-todo"
+    },
+    {
+      "name": "Weather app",
+      "description": "This weather app is a group project built using the SMHI API and TypeScript. It displays accurate weather data for different locations, includes dynamic icons, and was designed to practice API integration, asynchronous data handling, and collaborative development.",
+      "image": "images/watherapp2.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "APIs"
+      ],
+      "position": "left",
+      "netlify": "https://swe-weather-app.netlify.app/",
+      "github": "https://github.com/sandrahagevall/js-project-weather-app"
+    },
+    {
+      "name": "Recipe library",
+      "description": "This is a web app built using the Spoonacular API, designed to practice fetching specific data and using local storage to enhance the user experience, with JavaScript animations for added interactivity.",
+      "image": "images/recipe2.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "position": "right",
+      "netlify": "https://recipelibrary-app.netlify.app/",
+      "github": "https://github.com/sandrahagevall/js-project-recipe-library"
+    },
+    {
+      "name": "Accessibility site",
+      "description": "This fictional event site is a group project, created with accessbility in focus. It includes a modal with trapped focus, a high-contrast mode toggle, and text customization settings. The project was designed to practice building accessible and user-friendly interfaces while implementing interactive features that enhance usability for all users.",
+      "image": "images/eventfinder2.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "position": "left",
+      "netlify": "https://eventacc.netlify.app/",
+      "github": "https://github.com/sandrahagevall/js-project-accessibility"
+    },
+    {
+      "name": "Business site",
+      "description": "This is a project for a fictional company, built with responsive design using Flexbox and Grid, featuring a mobile menu and contact form. It was designed to practice clean structure, interactivity, and enhance the user experience.",
+      "image": "images/business2.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "position": "right",
+      "netlify": "https://skinexpert.netlify.app/",
+      "github": "https://github.com/sandrahagevall/project-skinexpert"
     }
   ]
 }

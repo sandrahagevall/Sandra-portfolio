@@ -39,13 +39,10 @@ export const MyWords = () => {
               title={post.name}
               date={post.date}
               image={post.image}
-              description={post.description}
+              content={post.content}
               link={post.link}
             />
           ))}
-          <MoreArticles>
-            <Button variant="secondary" icon="/images/arrow.svg">See more articles</Button>
-          </MoreArticles>
         </ContentWrapper>
       </SectionContainer>
     </section>
