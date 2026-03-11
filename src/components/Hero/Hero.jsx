@@ -6,8 +6,8 @@ export const Hero = () => {
     <section>
       <SectionContainer>
         <HeroWrapper>
-          <HeroIntro>Hi there, I'm</HeroIntro>
-          <HeroTitle>Sandra Hagevall</HeroTitle>
+          <HeroIntro>Hi there, I'm Sandra Hagevall</HeroIntro>
+          <HeroTitle>Fullstack Devloper</HeroTitle>
 
           <HeroImages>
             <HeroImage className="hero-img hero-img-left" aria-hidden="true" />
@@ -15,9 +15,9 @@ export const Hero = () => {
             <HeroImage className="hero-img hero-img-right" aria-hidden="true" />
           </HeroImages>
 
-          <HeroSubheading>Analytical Fullstack Developer with a Background in Industrial Engineering and IT Strategy</HeroSubheading>
+          <HeroSubheading>With a Background in Industrial Engineering and IT Strategy</HeroSubheading>
           <HeroBody>
-            I am a Fullstack Developer skilled at creating logical, structured, and accessible applications. I excel at solving complex problems and delivering efficient solutions. My analytical skills and drive to produce precise, high-quality code make me a valuable asset in any project.
+            Fullstack Developer building logical, structured, and accessible applications. I bring strong problem-solving skills, experience collaborating across teams, and the ability to quickly adapt to new technologies while delivering clean, high-quality code.
           </HeroBody>
         </HeroWrapper>
       </SectionContainer>

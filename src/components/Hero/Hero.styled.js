@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const HeroWrapper = styled.div`
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -17,13 +18,14 @@ export const HeroTitle = styled.h1`
   margin: 0;
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
-  font-size: 5rem;
+  font-size: 4rem;
+  margin: 0.5rem 0 1.5rem 0;
 }
 `
 
 export const HeroIntro = styled.p`
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   order: 1;
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
@@ -33,7 +35,7 @@ export const HeroIntro = styled.p`
 
 export const HeroSubheading = styled.p`
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 400;
   max-width: 800px;
   order: 3; 
 
@@ -68,7 +70,7 @@ export const HeroImages = styled.div`
   width: 290px;
   height: 200px;
   margin: 2rem auto;
-  order: 4;  
+  order: 3;  
 
   @media ${({ theme }) => theme.breakpoints.tablet} {
     width: 490px;
@@ -79,6 +81,7 @@ export const HeroImages = styled.div`
   @media ${({ theme }) => theme.breakpoints.desktop} {
     width: 530px;
     height: 280px;
+    margin: 2.5rem auto;
   }
 `
 
@@ -97,6 +100,7 @@ export const HeroImage = styled.div`
     left: 0px;
     top: 20px;
     transform: rotate(-5deg);
+    opacity: 0.88;
     z-index: 1;
   }
 
@@ -104,7 +108,7 @@ export const HeroImage = styled.div`
     background-image: url('/images/topimg.png');
     left: 50%;
     top: 8px;
-    transform: translateX(-50%);
+    transform: translateX(-50%) scale(1.05);
     z-index: 2;
   }
 
@@ -113,6 +117,7 @@ export const HeroImage = styled.div`
     right: 0px;
     top: 20px;
     transform: rotate(5deg);
+    opacity: 0.88;
     z-index: 1;
   }
 

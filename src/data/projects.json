@@ -19,7 +19,7 @@
     },
     {
       "name": "Happy thoughts App",
-      "description": "Happy Thoughts is a full-stack web app where users can share and like positive messages. The frontend is built with React and Tailwind CSS, while the backend is developed using Node.js and Express with MongoDB for data storage. The project focuses on API design, state management, and creating a friendly, interactive user experience.",
+      "description": "Happy Thoughts is a fullstack web app where users can share and like positive messages. The frontend is built with React and Tailwind CSS, while the backend is developed using Node.js and Express with MongoDB for data storage. The project focuses on API design, state management, and creating a friendly, interactive user experience.",
       "image": "images/happythoughts.png",
       "tags": [
         "React",
