@@ -15,7 +15,7 @@ export const Hero = () => {
             <HeroImage className="hero-img hero-img-right" aria-hidden="true" />
           </HeroImages>
 
-          <HeroSubheading>With a Background in Industrial Engineering and IT Strategy</HeroSubheading>
+          <HeroSubheading>Industrial Engineering & IT Strategy Background</HeroSubheading>
           <HeroBody>
             Fullstack Developer building logical, structured, and accessible applications. I bring strong problem-solving skills, experience collaborating across teams, and the ability to quickly adapt to new technologies while delivering clean, high-quality code.
           </HeroBody>

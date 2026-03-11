@@ -29,7 +29,7 @@ export const HeroIntro = styled.p`
   order: 1;
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 `
 
@@ -37,6 +37,7 @@ export const HeroSubheading = styled.p`
   font-size: 1.25rem;
   font-weight: 400;
   max-width: 800px;
+  margin-bottom: 2.5rem;
   order: 3; 
 
 @media ${({ theme }) => theme.breakpoints.tablet} {
@@ -45,7 +46,7 @@ export const HeroSubheading = styled.p`
   }
 
 @media ${({ theme }) => theme.breakpoints.desktop} {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 `
 
