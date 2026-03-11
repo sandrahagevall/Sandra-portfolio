@@ -75,7 +75,6 @@ export const HeroImages = styled.div`
   @media ${({ theme }) => theme.breakpoints.tablet} {
     width: 490px;
     height: 260px;
-    order: 3;
   }
 
   @media ${({ theme }) => theme.breakpoints.desktop} {
