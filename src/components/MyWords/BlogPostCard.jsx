@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
 import { Button } from "../Button"
-import { Card, ImageContainer, Content, ModalOverlay, ModalContent, CloseButton } from "./BlogPostCard.styled.js"
+import { Card, ImageContainer, Content, ArticleButton, ModalOverlay, ModalContent, CloseButton } from "./BlogPostCard.styled.js"
 
 export const BlogPostCard = ({ title, date, image, content, link }) => {
   const ref = useRef(null)
@@ -39,9 +39,9 @@ export const BlogPostCard = ({ title, date, image, content, link }) => {
           <p className="date">{date}</p>
           <h3>{title}</h3>
           <p className="preview">{content[0]}</p>
-          <button className="article-btn" onClick={() => setOpen(true)}>
+          <ArticleButton onClick={() => setOpen(true)}>
             Read article
-          </button>
+          </ArticleButton>
         </Content>
       </Card>
       {open && (

@@ -3,7 +3,8 @@ import styled from "styled-components"
 export const StyledButton = styled.button`
   display: flex;
   align-items: center;
-  width: 303px;
+  width: 100%;
+  max-width: 303px;
   height: 48px;
   padding: ${({ theme }) => `${theme.spacing.sm} ${theme.spacing.md}`};
   gap: ${({ theme }) => theme.spacing.md};

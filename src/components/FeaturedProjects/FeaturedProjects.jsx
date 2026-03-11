@@ -37,6 +37,7 @@ export const FeaturedProjects = () => {
             ))}
           </AnimatePresence>
           <Button
+            style={{ alignSelf: "center" }}
             variant="secondary"
             icon="/images/arrow.svg"
             $rotated={showAll}

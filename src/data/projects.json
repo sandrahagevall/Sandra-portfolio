@@ -1,22 +1,39 @@
 {
   "projects": [
     {
-      "name": "Happy thoughts app",
-      "description": "Happy Thoughts is a full-stack web application where users can share and like positive messages. The frontend is built with React and Tailwind CSS, while the backend is developed using Node.js and Express with MongoDB for data storage. The project focuses on API design, state management, and creating a friendly, interactive user experience.",
+      "name": "Trippio - travel planning app",
+      "description": "A fullstack travel planning app that combines trip organization with social discovery. Users can build detailed travel itineraries, share their trips, and explore destinations creathed by other travelers. The platform allows users to follow each other, discover new travel inspiration, and document trips with rich media. The app integrates the Unsplash API for dynamic destination imagery and uses Cloudinary for image storage and management.",
+      "image": "images/trippio.png",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Node.js & Express",
+        "MongoDB",
+        "Cloudinary",
+        "Zustand",
+        "Tailwind CSS"
+      ],
+      "position": "left",
+      "netlify": "https://trippio.netlify.app/",
+      "github": "https://github.com/sandrahagevall/final-project"
+    },
+    {
+      "name": "Happy thoughts App",
+      "description": "Happy Thoughts is a full-stack web app where users can share and like positive messages. The frontend is built with React and Tailwind CSS, while the backend is developed using Node.js and Express with MongoDB for data storage. The project focuses on API design, state management, and creating a friendly, interactive user experience.",
       "image": "images/happythoughts.png",
       "tags": [
         "React",
         "JavaScript",
-        "Node.js",
-        "Express",
-        "MongoDB"
+        "Node.js & Express",
+        "MongoDB",
+        "Tailwind CSS"
       ],
-      "position": "left",
+      "position": "right",
       "netlify": "https://happyarea.netlify.app/",
       "github": "https://github.com/sandrahagevall/Project-happy-thoughts"
     },
     {
-      "name": "Todo app",
+      "name": "To-do App",
       "description": "A responsive Todo application built with React and JavaScript, featuring global state management using Zustand. Styled with Tailwind CSS, the app allows users to create, categorize, and manage tasks with optional due dates",
       "image": "images/todo.png",
       "tags": [
@@ -25,24 +42,38 @@
         "Zustand",
         "Tailwind CSS"
       ],
-      "position": "right",
+      "position": "left",
       "netlify": "https://task-by-task.netlify.app/",
       "github": "https://github.com/sandrahagevall/project-todo"
     },
     {
-      "name": "Weather app",
+      "name": "Weather App",
       "description": "This weather app is a group project built using the SMHI API and TypeScript. It displays accurate weather data for different locations, includes dynamic icons, and was designed to practice API integration, asynchronous data handling, and collaborative development.",
       "image": "images/watherapp2.png",
       "tags": [
         "HTML5",
         "CSS3",
-        "JavaScript",
         "TypeScript",
-        "APIs"
+        "REST API"
       ],
-      "position": "left",
+      "position": "right",
       "netlify": "https://swe-weather-app.netlify.app/",
       "github": "https://github.com/sandrahagevall/js-project-weather-app"
+    },
+    {
+      "name": "Movie Discovery App",
+      "description": "A React-based movie discovery app that lets users explore popular films and move between pages using dynamic routing. Movie data is fetched from a public API.",
+      "image": "images/movies.png",
+      "tags": [
+        "React",
+        "JavaScript",
+        "React Router",
+        "Styled Components",
+        "REST API"
+      ],
+      "position": "left",
+      "netlify": "https://browseflix.netlify.app/",
+      "github": "https://github.com/sandrahagevall/js-project-movies"
     },
     {
       "name": "Recipe library",
@@ -52,14 +83,14 @@
         "HTML5",
         "CSS3",
         "JavaScript",
-        "APIs"
+        "REST API"
       ],
       "position": "right",
       "netlify": "https://recipelibrary-app.netlify.app/",
       "github": "https://github.com/sandrahagevall/js-project-recipe-library"
     },
     {
-      "name": "Accessibility site",
+      "name": "Accessibility Site",
       "description": "This fictional event site is a group project, created with accessbility in focus. It includes a modal with trapped focus, a high-contrast mode toggle, and text customization settings. The project was designed to practice building accessible and user-friendly interfaces while implementing interactive features that enhance usability for all users.",
       "image": "images/eventfinder2.png",
       "tags": [
@@ -72,7 +103,7 @@
       "github": "https://github.com/sandrahagevall/js-project-accessibility"
     },
     {
-      "name": "Business site",
+      "name": "Business Site",
       "description": "This is a project for a fictional company, built with responsive design using Flexbox and Grid, featuring a mobile menu and contact form. It was designed to practice clean structure, interactivity, and enhance the user experience.",
       "image": "images/business2.png",
       "tags": [

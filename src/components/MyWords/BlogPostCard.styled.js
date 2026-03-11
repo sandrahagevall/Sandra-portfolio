@@ -77,8 +77,9 @@ export const Content = styled.div`
     -webkit-mask-image: linear-gradient(180deg, black 70%, transparent);
     mask-image: linear-gradient(180deg, black 70%, transparent);
 }
+`
 
-  button {
+export const ArticleButton = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,14 +92,14 @@ export const Content = styled.div`
     font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
+    border: 1px solid black;
     border-radius: 12px;
     margin-bottom: 1rem;
     margin-top: 1.2rem;
     align-self: center;
     transition: all 0.25s ease;
-  }
 
-  button:hover {
+  &:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.12);
   background-color: #f8f8f8;
